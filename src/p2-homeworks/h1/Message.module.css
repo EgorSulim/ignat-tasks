@@ -1,0 +1,97 @@
+.img {
+    width: 50px
+}
+
+.message {
+    margin: 30px;
+    display: inline-block;
+    padding: .5em 2em 2em 2em;
+    background: #353535;
+    border-radius: .4em;
+    font-family: 'Arial', sans-serif;
+    color: #888;
+    box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.2);
+    height: 40px;
+    width: 200px;
+    position: relative;
+}
+
+.message:after {
+    background-color: #ffffff;
+    border-radius: 0 0 50% 0;
+    border-right: 0;
+    bottom: 0px;
+    content: '';
+    height: 50px;
+    margin-top: 5px;
+    margin-right: 170px;
+    right: 90px;
+    transform: rotate(0deg);
+    width: 60px;
+    z-index: -1;
+    position: absolute;
+}
+
+.message:before {
+    background-color: #353535;
+    border-right: 0;
+    bottom: 0px;
+    content: '';
+    height: 30px;
+    margin-right: 230px;
+    right: 0px;
+    transform: rotate(0deg);
+    width: 70px;
+    z-index: -1;
+    position: absolute;
+}
+
+.name {
+    color: blueviolet;
+}
+
+.text {
+    margin: 10px
+}
+
+.time {
+    margin-top: -5px;
+    margin-left: 189px;
+    color: green;
+}
+
+.chat{
+    display:grid;
+    grid-template-columns: 2fr 10fr;
+}
+
+.alternativeMessage {
+    position: relative;
+    margin-left: 200px;
+    width: 290px;
+    height: 110px;
+    background: #fff url('https://cdn1.savepice.ru/uploads/2021/8/21/e27f709932b64c0320027c7f55c773f8-full.png') 0 0 no-repeat;
+    margin-top: 5px;
+
+}
+
+.aName {
+    margin-top: 5px;
+    color: blueviolet;
+    margin-left: 10px;
+}
+
+.aTime {
+    margin-top: 10px;
+    margin-left: 190px;
+}
+
+.aText {
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.aImg img {
+    margin-top: 25px;
+    width: 50px;
+}
