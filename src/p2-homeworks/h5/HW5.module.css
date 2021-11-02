@@ -1,0 +1,18 @@
+.header{
+   display: flex;
+    transition-duration: 500ms;
+    transform: translate(-95px);
+}
+.header:hover{
+    display: flex;
+    transition-duration: 500ms;
+    transform: translate(0)
+}
+.links a{
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+.links a.active{
+    color: gold;
+}
